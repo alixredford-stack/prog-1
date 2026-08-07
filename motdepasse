@@ -1,0 +1,14 @@
+# Ce programme demande à l'utilisateur le mot de passe python123 et affiche
+# réessayez s'il n'est pas entré ou acces accordé s'il est entré.
+
+motdepasse = "python123"  # mot de passe attendu.
+
+while True:
+    n = input("Entrer un mot de passe (contenant des lettre, et 3 chiffres ):")
+    
+    if n != motdepasse:
+        alert("Mauvais mot de passe, réessayer.")
+        
+    else:
+        alert("Accès accordé.")
+        break
